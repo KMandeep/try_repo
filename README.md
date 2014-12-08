@@ -4,14 +4,7 @@ mandeep kushwaha
 
 introduction
 =============
-fnskvsfv vvdvfkmb
-
-
-execution
-==========
-
-
-nkgkbvldknbnknl
+fnskvsfv vvdvfk
 
 point
 ======
