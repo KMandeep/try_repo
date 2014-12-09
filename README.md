@@ -1,5 +1,5 @@
 ## Description
-    This project is in developement phase. 
+This project is in developement phase. 
 It is designed with the aim to process incoming streams from the message emitter in real time.
  It has two applications job_tracker and stream_processing. Stream_processing app depends on the job_tracker app,so prior to starting the stream_processing app,the job_tracker app needs to be started. Job_tracker application has a process named job_tracker_procs, it passes the module_name,start function name and function arguments to the scenario supervisor of stream processing app, so that it can dynamically start the child processes namely spout_procs, filter_bolt, count_bolt. Spout_procs reads input from the input.txt file and passes the read msg to the filter_bolt. filter_bolt processes the message and filters them according to the particular tag in the message. if the message contains the desired tag then it is passed on to the next bolt called count_bolt else the message is discarded. Count_bolt reads the incoming messages from the filter_bolt, write them into output.txt file and prints the amount of message it had read on the console.
 
