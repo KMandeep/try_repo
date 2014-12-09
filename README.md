@@ -4,7 +4,7 @@ This project is in developement phase and is created with aim to process incomin
 
 
 ## Project Layout
-The Project layout of the software is as  below:
+  The Project layout of the software is as  below:
      - Each application directory must have five sub directory/Folder.
          -sub folder
               1. ebin folder - It contains compiled code and *.app file.
@@ -16,7 +16,7 @@ The Project layout of the software is as  below:
     how to compile and process the modules inside sub directories.
 
 ## Execution
-  In the terminal write the command  erl -make 
+   In the terminal write the command  erl -make 
     then write 'erl' to start the erlang emulator
     now write   make:all([load]).
     then   cd(ebin).
